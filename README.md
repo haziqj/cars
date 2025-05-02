@@ -2,6 +2,9 @@
 
 > 🚗💨 Two Premium Cars for Sale in Brunei — Grab Them Before They're Gone!
 
+![bmwmini 001](https://github.com/user-attachments/assets/e61cc8ed-9420-44f5-90c7-fac529ef4f63)
+
+
 Looking for a ride that turns heads *and* delivers performance? You're in the right place. I'm selling **two meticulously maintained, low-mileage, high-spec cars** — a **BMW X3 (G01) M Sport** and a **Mini Cooper S 60 Years Edition**. 
 
 Each car has full OEM service history at **QAF Auto Sdn Bhd**, lovingly cared for, and barely used for their age. ✨
@@ -69,4 +72,5 @@ Each car has full OEM service history at **QAF Auto Sdn Bhd**, lovingly cared fo
 ## 📞 Interested?
 
 Reach out now before someone else grabs them!  
+Contact Haziq [M: 7171144]  
 These aren't just cars — they're experiences on wheels. 💫
