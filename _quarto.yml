@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs/
+
+website:
+  title: "sellcars"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - gallery.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
