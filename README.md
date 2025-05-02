@@ -51,7 +51,7 @@ Each car has full OEM service history at **QAF Auto Sdn Bhd**, lovingly cared fo
 
 **💰 Asking Price:** BND 35,000  
 **🛠 Original Price:** BND 65,000  
-**📍 Mileage:** 47,000+ km  
+**📍 Mileage:** 46,000+ km  
 **🎨 Colour:** British Racing Green IV  
 **🪑 Interior:** 60 Years Dark Maroon Leather  
 **🚀 Performance:** 2.0L B48C petrol (189hp) | 0–100 km/h in 8.2s  
