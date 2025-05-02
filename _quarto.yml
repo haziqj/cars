@@ -3,20 +3,22 @@ project:
   output-dir: docs/
 
 website:
-  title: "sellcars"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - gallery.qmd
-
+  search: false
+  
 format:
   html:
+    fontsize: large
     theme:
       - cosmo
       - brand
     css: styles.css
     toc: true
+    toc-expand: 0
 
 
 
