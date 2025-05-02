@@ -9,8 +9,6 @@ website:
         text: Home
       - gallery.qmd
   search: false
-  image: "bmwmini.001.png"  
-  open-graph: true  
   
 format:
   html:
