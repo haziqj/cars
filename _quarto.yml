@@ -9,6 +9,7 @@ website:
         text: Home
       - gallery.qmd
   search: false
+  open-graph: true
   
 format:
   html:
