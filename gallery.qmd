@@ -6,6 +6,15 @@ title: "Gallery"
 
 ![](gallery/bmw1.jpg){group="bmwx3"}
 
+![](gallery/bmw2.jpeg){group="bmwx3"}
+
+![](gallery/bmw3.jpeg){group="bmwx3"}
+
+![](gallery/bmw4.jpeg){group="bmwx3"}
+
+![](gallery/bmw5.jpeg){group="bmwx3"}
+
+![](gallery/bmw6.jpeg){group="bmwx3"}
 
 ## Mini Cooper S
 
