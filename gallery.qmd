@@ -27,3 +27,10 @@ title: "Gallery"
 ![](gallery/mini4.jpeg){group="mini"}
 
 ![](gallery/mini5.jpeg){group="mini"}
+
+![](gallery/mini6.jpeg){group="mini"}
+
+![](gallery/mini7.jpeg){group="mini"}
+![](gallery/mini8.jpeg){group="mini"}
+![](gallery/mini9.jpeg){group="mini"}
+![](gallery/mini10.jpeg){group="mini"}
