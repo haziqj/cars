@@ -4,7 +4,7 @@ title: "Gallery"
 
 ## BMW X3
 
-![](gallery/bmw1.jpg){group="bmwx3"}
+![](gallery/bmw1.jpeg){group="bmwx3"}
 
 ![](gallery/bmw2.jpeg){group="bmwx3"}
 
@@ -18,4 +18,12 @@ title: "Gallery"
 
 ## Mini Cooper S
 
-To be added
+![](gallery/mini1.jpeg){group="mini"}
+
+![](gallery/mini2.jpeg){group="mini"}
+
+![](gallery/mini3.jpeg){group="mini"}
+
+![](gallery/mini4.jpeg){group="mini"}
+
+![](gallery/mini5.jpeg){group="mini"}
