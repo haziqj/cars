@@ -1,4 +1,4 @@
-# BMW and Mini For Sale
+# BMW For Sale
 
 https://haziqj.ml/cars
 

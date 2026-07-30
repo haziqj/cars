@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Gallery</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,14 +31,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-076ecbd647e1f0418c5051713cd9b730.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6837d92779511452771cd1e294b8c44f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9d73ba603b34196c5be1ef1ec3e849dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -58,7 +62,6 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Gallery">
-<meta property="og:description" content="">
 <meta property="og:image" content="gallery/bmw1.jpeg">
 </head>
 
@@ -98,7 +101,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#bmw-x3" id="toc-bmw-x3" class="nav-link active" data-scroll-target="#bmw-x3">BMW X3</a></li>
-  <li><a href="#mini-cooper-s" id="toc-mini-cooper-s" class="nav-link" data-scroll-target="#mini-cooper-s">Mini Cooper S</a></li>
   </ul>
 </nav>
     </div>
@@ -132,16 +134,24 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="gallery/bmw4.jpeg" class="lightbox" data-gallery="bmwx3"><img src="gallery/bmw4.jpeg" class="img-fluid"></a></p>
 <p><a href="gallery/bmw5.jpeg" class="lightbox" data-gallery="bmwx3"><img src="gallery/bmw5.jpeg" class="img-fluid"></a></p>
 <p><a href="gallery/bmw6.jpeg" class="lightbox" data-gallery="bmwx3"><img src="gallery/bmw6.jpeg" class="img-fluid"></a></p>
-</section>
-<section id="mini-cooper-s" class="level2">
-<h2 class="anchored" data-anchor-id="mini-cooper-s">Mini Cooper S</h2>
-<p><a href="gallery/mini1.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini1.jpeg" class="img-fluid"></a></p>
-<p><a href="gallery/mini2.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini2.jpeg" class="img-fluid"></a></p>
-<p><a href="gallery/mini3.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini3.jpeg" class="img-fluid"></a></p>
-<p><a href="gallery/mini4.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini4.jpeg" class="img-fluid"></a></p>
-<p><a href="gallery/mini5.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini5.jpeg" class="img-fluid"></a></p>
-<p><a href="gallery/mini6.jpeg" class="lightbox" data-gallery="mini"><img src="gallery/mini6.jpeg" class="img-fluid"></a></p>
-<p><img src="gallery/mini7.jpeg" class="img-fluid" data-group="mini"> <img src="gallery/mini8.jpeg" class="img-fluid" data-group="mini"> <img src="gallery/mini9.jpeg" class="img-fluid" data-group="mini"> <img src="gallery/mini10.jpeg" class="img-fluid" data-group="mini"></p>
+<!-- ## Mini Cooper S
+
+![](gallery/mini1.jpeg){group="mini"}
+
+![](gallery/mini2.jpeg){group="mini"}
+
+![](gallery/mini3.jpeg){group="mini"}
+
+![](gallery/mini4.jpeg){group="mini"}
+
+![](gallery/mini5.jpeg){group="mini"}
+
+![](gallery/mini6.jpeg){group="mini"}
+
+![](gallery/mini7.jpeg){group="mini"}
+![](gallery/mini8.jpeg){group="mini"}
+![](gallery/mini9.jpeg){group="mini"}
+![](gallery/mini10.jpeg){group="mini"} -->
 
 
 </section>
@@ -198,13 +208,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -16,7 +16,7 @@ title: "Gallery"
 
 ![](gallery/bmw6.jpeg){group="bmwx3"}
 
-## Mini Cooper S
+<!-- ## Mini Cooper S
 
 ![](gallery/mini1.jpeg){group="mini"}
 
@@ -33,4 +33,4 @@ title: "Gallery"
 ![](gallery/mini7.jpeg){group="mini"}
 ![](gallery/mini8.jpeg){group="mini"}
 ![](gallery/mini9.jpeg){group="mini"}
-![](gallery/mini10.jpeg){group="mini"}
+![](gallery/mini10.jpeg){group="mini"} -->
