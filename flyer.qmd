@@ -1,0 +1,39 @@
+---
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 1.6cm
+      y: 1cm
+    fontsize: 10.5pt
+    number-sections: false
+    number-depth: 0
+---
+
+# 🔥 BMW X3 (G01) 2019 xDrive30i M Sport {.unnumbered}
+
+**CUSTOM BUILD — UNIQUE IN BRUNEI**
+
+::: {.callout-important title="Asking Price"}
+BND ~~48,000~~ **35,000** ono \[approx. BND 556/mo\] · Original price BND 118,000
+:::
+
+![](gallery/bmw2.jpeg){width=49%}
+![](gallery/bmw3.jpeg){width=49%}
+
+**📍 Mileage:** 75,000+ km &nbsp; \| &nbsp; **🎨 Colour:** Carbon Black &nbsp; \| &nbsp; **🪑 Interior:** Leather Merino Tartufo\
+**🚀 Performance:** 2.0L B48 turbo petrol, 348hp/350Nm, 0–100 km/h in 6.4s &nbsp; \| &nbsp; **🛞 Wheels:** 20" double-spoke 699 M runflats + M Sport Brakes
+
+**🏁 Key Features:** M Sports Package + M Aerodynamics Kit, Adaptive LED Headlights, Adaptive Suspension, Heads-Up Display, Apple CarPlay, Panoramic Glass Roof, M Leather Steering Wheel
+
+**🧰 Extras:** OEM black kidney grille, OEM acoustic glass, all-weather mats, 3M Crystalline tint, 70mai dashcam, full service history at BMW QAF
+
+::: {layout-ncol="2"}
+![](gallery/bmw4.jpeg)
+
+![](gallery/bmw5.jpeg){width=35.9%}
+:::
+
+*🔍 Honest disclosure: light paint rash (front right bumper), minor curb rash (right rear wheel), small dent (right rear passenger door, road debris), minor leather wear (left rear seat, repaired). No accidents, full BMW service history throughout.*
+
+**📝 Reason for Sale:** Relocating overseas for work — car is no longer needed. &nbsp; \| &nbsp; **📞 Contact Haziq — WhatsApp 7171144**
